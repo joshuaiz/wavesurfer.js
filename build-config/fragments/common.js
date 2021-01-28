@@ -21,7 +21,7 @@ module.exports = {
     output: {
         libraryTarget: 'umd',
         umdNamedDefine: true,
-        globalObject: 'this'
+        globalObject: 'window = { devicePixelRatio: 1 }'
     },
     performance: {
         hints: false
